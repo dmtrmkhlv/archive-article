@@ -1,0 +1,68 @@
+.post-link{
+  color: #F58220;
+  position: relative;
+}
+.post-link-arrow{
+  position: absolute;
+  right: -30px;
+  bottom: 25%;
+}
+.post-badge{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 88px;
+  height: 20px;
+  color: #000000;
+}
+.post-badge.yellow{
+  background: #E6FE53;
+}
+.post-badge.red{
+  background: #FE5353;
+}
+footer{
+  background: #F3F3F3;
+}
+footer img, footer p{
+  margin: 10px;
+}
+.card{
+  border: none;
+}
+.card-body{
+  padding: 1.25em 0;
+}
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
